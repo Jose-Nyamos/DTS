@@ -1,0 +1,232 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>W3C Example Table</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--><meta http-equiv="content-type" content="text/plain; charset=UTF-8"/></head><body><table>
+		<colgroup>
+			<col id="period-number-col">
+			<col id="period-col">
+			
+			<col id="day-0-col">
+			
+			<col id="day-1-col">
+			
+			<col id="day-2-col">
+			
+			<col id="day-3-col">
+			
+			<col id="day-4-col" class=" highlight">
+			
+		</colgroup>
+		<thead> 
+			<tr class="bg-primary">
+				<th>No.</th>
+				<th>Period</th>
+				
+				<th id="day-0">MONDAY</th>
+				
+				<th id="day-1">TUESDAY</th>
+				
+				<th id="day-2">WEDNESDAY</th>
+				
+				<th id="day-3">THURSDAY</th>
+				
+				<th id="day-4">FRIDAY</th>
+				
+			</tr>
+		</thead>
+		<tbody>
+			
+			<tr>
+				<td id="period-1">1</td>
+				<td>
+					
+					8:00–<wbr>10:00
+					
+				</td>
+				
+				
+				<td>
+					
+					<div style="border-bottom:1px solid #000">
+						
+<div class="lesson-onerow">
+	<a class="room" href="/timetable/room/1/" title="CLASSROOM 6">ICT_04</a>
+	<span class="subject" title="Qualitative mathematics">
+		QM
+	</span>
+	<a class="teacher" href="/timetable/teacher/1/" title="MR Ruto">Ruto</a>
+</div>
+
+					</div>
+					
+				</td>
+		
+				
+				<td>
+					
+					<div style="border-bottom:1px solid #000">
+						
+<div class="lesson-onerow">
+	<a class="room" href="/timetable/room/1/" title="CLASSROOM 6">ICT_04</a>
+	<span class="subject" title="Data Communication and Networking">
+		DCN
+	</span>
+	<a class="teacher" href="/timetable/teacher/4/" title="MR Opere">Opere</a>
+</div>
+
+					</div>
+					
+				</td>
+		
+				
+				<td>
+					
+				</td>
+		
+				
+				<td>
+					
+				</td>
+		
+				
+				<td>
+					
+				</td>
+		
+				
+			</tr>
+		
+			
+			<tr>
+				<td id="period-2">2</td>
+				<td>
+					
+					11:00–<wbr>12:40
+					
+				</td>
+				
+				
+				<td>
+					
+					<div style="border-bottom:1px solid #000">
+						
+<div class="lesson-onerow">
+	<a class="room" href="/timetable/room/1/" title="CLASSROOM 6">ICT_04</a>
+	<span class="subject" title="Qualitative mathematics">
+		QM
+	</span>
+	<a class="teacher" href="/timetable/teacher/1/" title="MR Ruto">Ruto</a>
+</div>
+
+					</div>
+					
+				</td>
+		
+				
+				<td>
+					
+					<div style="border-bottom:1px solid #000">
+						
+<div class="lesson-onerow">
+	<a class="room" href="/timetable/room/1/" title="CLASSROOM 6">ICT_04</a>
+	<span class="subject" title="Principle and Practice of Management">
+		PPM
+	</span>
+	<a class="teacher" href="/timetable/teacher/3/" title="MR Shikuku">Shikuku</a>
+</div>
+
+					</div>
+					
+				</td>
+		
+				
+				<td>
+					
+				</td>
+		
+				
+				<td>
+					
+				</td>
+		
+				
+				<td>
+					
+				</td>
+		
+				
+			</tr>
+		
+			
+			<tr>
+				<td id="period-3">3</td>
+				<td>
+					
+					14:00–<wbr>16:00
+					
+				</td>
+				
+				
+				<td>
+					
+					<div style="border-bottom:1px solid #000">
+						
+<div class="lesson-onerow">
+	<a class="room" href="/timetable/room/1/" title="CLASSROOM 6">ICT_04</a>
+	<span class="subject" title="Data Communication and Networking">
+		DCN
+	</span>
+	<a class="teacher" href="/timetable/teacher/4/" title="MR Opere">Opere</a>
+</div>
+
+					</div>
+					
+					<div style="border-bottom:1px solid #000">
+						
+<div class="lesson-onerow">
+	<a class="room" href="/timetable/room/2/" title="PHYSIC LAB">ICT-02</a>
+	<span class="subject" title="Principle and Practice of Management">
+		PPM
+	</span>
+	<a class="teacher" href="/timetable/teacher/3/" title="MR Shikuku">Shikuku</a>
+</div>
+
+					</div>
+					
+				</td>
+		
+				
+				<td>
+					
+					<div style="border-bottom:1px solid #000">
+						
+<div class="lesson-onerow">
+	<a class="room" href="/timetable/room/1/" title="CLASSROOM 6">ICT_04</a>
+	<span class="subject" title="Qualitative mathematics">
+		QM
+	</span>
+	<a class="teacher" href="/timetable/teacher/1/" title="MR Ruto">Ruto</a>
+</div>
+
+					</div>
+					
+				</td>
+		
+				
+				<td>
+					
+				</td>
+		
+				
+				<td>
+					
+				</td>
+		
+				
+				<td>
+					
+				</td>
+		
+				
+			</tr>
+		
+			
+		</tbody>
+	</table></body></html>

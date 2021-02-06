@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}
+{% trans "Log in" %} - DEFTEC
+{% endblock %}
+
+{% block content %}
+
+<form class="form-small" method="post">
+<div class="col-md-11 col-xl-10 mb-8">
+<!--Form-->
+<div class="card wow fadeInRight" data-wow-delay="0.3s" style="background-color: rgba(243, 220, 10, 0.822); opacity: 20;">
+<div class="card-body">
+<!--Header-->
+<div class="text-center">
+<h3 class="white-text">
+<i class="fas fa-user white-text"></i> Login in:</h3>
+<hr class="hr-light">
+</div>
+	{% if form.errors %}
+	<p>
+		{% trans "Your username and password didn't match. Please try again." %}
+	</p>
+	{% endif %}
+
+	{% if next %}
+	{% if user.is_authenticated %}
+	<p>
+		{% blocktrans trimmed %}
+		Your account doesn't have access to this page. To proceed,
+		please login with an account that has access.
+		{% endblocktrans %}
+	</p>
+	{% endif %}
+	{% endif %}
+
+
+	{% csrf_token %}
+	{{ form.as_p }} 
+	<p class="text-center">
+		<button class="button-primary" type="submit">
+			{% trans "Log in" %}
+		</button>
+	</p> 
+	<a href='{% url 'password_reset' %}'><b style="color: rgb(230, 78, 68); font-size: 1.5rem;">Forgot password?</b></a>	
+</div></div></div></form>
+
+
+{% endblock %}

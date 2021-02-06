@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}
+{% trans "Contact" %} - DEFTEC
+{% endblock %}
+
+{% block content %}
+<form method="post" class="form-small">
+	<h2>{% trans "Contact" %}</h2>
+	{% csrf_token %}
+	{{ form.as_p }}
+	<p class="text-center">
+		<button class="button-primary" type="submit">
+			{% trans "Send" %}
+		</button>
+	</p>
+</form>
+{% endblock %}
+
